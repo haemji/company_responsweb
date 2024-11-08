@@ -17,7 +17,6 @@
 .yc_brand .brand_box:nth-child(6) button:after{background-image:url(../img_new/value/brand/brand_img6.jpg);}
 .yc_brand .brand_box:nth-child(7) button:after{background-image:url(../img_new/value/brand/brand_img7.jpg);}
 .yc_brand .brand_box:nth-child(8) button:after{background-image:url(../img_new/value/brand/brand_img8.jpg);} */
-.yc_brand .brand_box button:hover img{display:block;}
 .yc_brand .brand_box button:hover:after{visibility:visible;transition:200ms ease-in-out;opacity:1;}
 .yc_brand .brand_box .brand_nm{margin-top:20px;font-size:20px;font-weight:600;}
 
@@ -32,7 +31,7 @@
 .brand_layer_popup .context{display:flex;align-items:center;margin-bottom:33px;}
 .brand_layer_popup .context .imgbox{width:450px;margin-right:50px;}
 .brand_layer_popup .context .textbox{width:calc(100% - 500px);}
-.brand_layer_popup .context .b_logo{margin-bottom:18px;}
+.brand_layer_popup .context .b_logo{margin-bottom:18px; width: 180px;}
 .brand_layer_popup .context .b_logo img{border-radius:0;}
 .brand_layer_popup .context .b_slogan{margin-bottom:26px;font-size:22px;font-weight:700;line-height:32px;}
 .brand_layer_popup .context .b_text{font-size:18px;font-weight:500;line-height:28px;word-break:keep-all;}
@@ -72,7 +71,7 @@
 	.brand_layer_popup .context .b_slogan{margin-bottom:22px;font-size:20px;line-height:30px;}
 	.brand_layer_popup .context .b_text{font-size:16px;line-height:26px;}
 	.brand_layer_popup .thumb_box .tmb_right .mall_link{padding:0 12px;font-size:16px;}
-	.brand_layer_popup .thumb_box .tmb_right .mall_link:after{width:6px;}
+	.brand_layer_popup .thumb_box .tmb_right .mall_link:after{width:24px;}
 	.brand_layer_popup .thumb_box .tmb_left{font-size:20px;}
 	.brand_layer_popup .thumb_box .scroll_box{padding-top:24px;white-space:nowrap;overflow-x:auto;}
 	.brand_layer_popup .thumb_box .scroll_box .scroll_item{width:180px;}
@@ -83,26 +82,26 @@
 	.yc_brand .brand_box:nth-child(2n){margin-left:20px;}
 	.yc_brand .brand_box .brand_nm{margin-top:20px;font-size:20px;}
 	.yc_brand .brand_box button{height:240px;}
-	.yc_brand .brand_box:nth-child(1) button img{height:33px;}
+	/* .yc_brand .brand_box:nth-child(1) button img{height:33px;}
 	.yc_brand .brand_box:nth-child(2) button img{height:30px;}
 	.yc_brand .brand_box:nth-child(3) button img{height:52px;}
 	.yc_brand .brand_box:nth-child(4) button img{height:60px;}
 	.yc_brand .brand_box:nth-child(5) button img{height:95px;}
 	.yc_brand .brand_box:nth-child(6) button img{height:61px;}
 	.yc_brand .brand_box:nth-child(7) button img{height:50px;}
-	.yc_brand .brand_box:nth-child(8) button img{height:25px;}
+	.yc_brand .brand_box:nth-child(8) button img{height:25px;} */
 
 	.brand_layer_popup .layer_inner{padding-top:50px;}
 	.brand_layer_popup .layer_close{top:15px;}
 	.brand_layer_popup .context .imgbox img{max-width:100%;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(1) .b_logo{height:26px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(2) .b_logo{height:25px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(3) .b_logo{height:20px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(4) .b_logo{height:47px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(5) .b_logo{height:60px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(6) .b_logo{height:53px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(7) .b_logo{height:30px;}
-	.brand_layer_popup .layer_conbox .layer_con:nth-child(8) .b_logo{height:22px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(1) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(2) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(3) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(4) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(5) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(6) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(7) .b_logo{width: 100px;}
+	.brand_layer_popup .layer_conbox .layer_con:nth-child(8) .b_logo{width: 100px;}
 	.brand_layer_popup .thumb_box .scroll_box .scroll_item{width:160px;}
 	.brand_layer_popup .thumb_box .scroll_box .scroll_item + .scroll_item{margin-left:10px;}
 	.brand_layer_popup .thumb_box .thumb_nm{font-size:16px;}
