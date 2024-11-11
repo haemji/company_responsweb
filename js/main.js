@@ -147,7 +147,7 @@ $(function() {
     });
 });
 
-(function(){
+$(function(){
     function includeHtml() {
         const includeTarget = document.querySelectorAll('.includeJs');
         includeTarget.forEach(function(el, idx) {
